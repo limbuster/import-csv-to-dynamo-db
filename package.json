@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "prepush": "is-git-status-clean && npm run lint && npm run test",
     "start": "node ./bin/import-csv-to-dynamo.js",
-    "test": "jest ."
+    "test": "jest .",
+    "test:cover": "jest . --coverage"
   },
   "repository": {
     "type": "git",
