@@ -1,0 +1,41 @@
+{
+  "name": "import-csv-to-dynamo-db",
+  "version": "1.0.0",
+  "description": "This project is built so you can import data downloaded as CSV from AWS dynamodb to your local copy of dynamodb.",
+  "main": "index.js",
+  "bin": {
+    "import-csv-to-dynamo": "./bin/import-csv-to-dynamo.js"
+  },
+  "scripts": {
+    "start": "node ./bin/import-csv-to-dynamo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limbuster/import-csv-to-dynamo-db.git"
+  },
+  "keywords": [
+    "dynamodb",
+    "aws",
+    "node",
+    "javascript"
+  ],
+  "author": "limbuster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limbuster/import-csv-to-dynamo-db/issues"
+  },
+  "homepage": "https://github.com/limbuster/import-csv-to-dynamo-db#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "husky": "^0.14.3",
+    "jest": "^23.1.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.262.1",
+    "commander": "^2.15.1",
+    "fast-csv": "^2.4.1"
+  }
+}
