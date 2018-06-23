@@ -7,8 +7,10 @@
     "import-csv-to-dynamo": "./bin/import-csv-to-dynamo.js"
   },
   "scripts": {
+    "lint": "eslint .",
+    "prepush": "is-git-status-clean && npm run lint && npm run test",
     "start": "node ./bin/import-csv-to-dynamo.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ."
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.12.0",
     "husky": "^0.14.3",
+    "is-git-status-clean": "^1.0.0",
     "jest": "^23.1.0"
   },
   "dependencies": {
