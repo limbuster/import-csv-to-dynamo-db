@@ -1,3 +1,2 @@
-"username (S)","deviceId (S)","endpointArn (S)","notificationKey (S)","platform (S)","model (S)","timestamp (N)","version (S)"
-"louis.yip@mynixplay.com","00000000-0000-0000-ca54-50017c986f19","arn:aws:sns:ap-southeast-1:059081848155:endpoint/GCM/rnd-android-notification/87282e70-7517-3f01-8d79-c472eb2c3c46","APA91bG_0rVwrXW9GpJKfjRC8CD8TdCeJbjBmPhqUBC8x6FQmEyIs2ENC4UJ3FhkV26N6ZoWMUXiZW-T4ZCKTx2AQLtsnLPrW4TJ0VAfISLx-A_UCN-zIGKqSi0wJ0nOG7GXGg24CZfPKp36-DkNRD5NPlnVr51QQw","android",,,
-"ricardo@mynixplay.com","7EBB2D94-ADB5-4113-9EB0-A45D072D87B6","arn:aws:sns:ap-southeast-1:059081848155:endpoint/APNS_SANDBOX/rnd-ios-notification/9330027f-7903-392c-898b-241f9bf46cb6","dd05a26cc1a47be182d42615ae2e71afc61468d346c66a9f0cad6593af06b366","ios","iPhone7,2","1434969174384","8.1.2"
+"email (S)","fullName (S)","age (N)","address (S)"
+"jane.doe1@example.com","jane Doe","31","Global street, City"
