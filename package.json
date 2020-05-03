@@ -1,6 +1,6 @@
 {
   "name": "import-csv-to-dynamo-db",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This project is built so you can import data downloaded as CSV from AWS dynamodb to your local copy of dynamodb.",
   "main": "index.js",
   "bin": {
