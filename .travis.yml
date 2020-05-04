@@ -5,8 +5,11 @@ jobs:
   include:
   - stage: Produce Coverage
     node_js: node
-    script: jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
-      && rm -rf ./coverage
+    script: npm run coverage
+
+    before_script:
+      - npm run lint
+
 deploy:
   provider: npm
   email: kumar.limbu@me.com
